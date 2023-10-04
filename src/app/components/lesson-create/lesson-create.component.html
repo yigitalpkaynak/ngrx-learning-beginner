@@ -1,0 +1,4 @@
+<input type="number" #txtId placeholder="Id"> <br>
+<input type="text" #txtLesson placeholder="Lesson"> <br>
+<input type="text" #txtExplanation placeholder="Explanation"> <br>
+<button (click)="createLesson(txtId.value, txtLesson.value, txtExplanation.value)">Add Lesson</button>
